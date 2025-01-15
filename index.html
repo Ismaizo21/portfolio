@@ -7,9 +7,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Ismaila Keita - Portfolio</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
   </head>
   <body>
     <header>
@@ -36,7 +41,8 @@
         Salut, je suis <span>Ismaila</span>
       </h1>
       <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-        Développeur passionné, curieux et toujours prêt à apprendre.
+        Développeur passionné, créatif et toujours à la recherche de nouveaux
+        défis.
       </p>
       <button data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
         <a href="./Ismaila Keita.pdf" download>Mon CV</a>
@@ -47,6 +53,14 @@
     <section id="apropos" class="section">
       <h2 data-aos="fade-up" data-aos-duration="1500">À propos de moi</h2>
       <div class="apropos-content">
+        <img
+          src="./IMG_8032.JPG"
+          alt="Icône de profil"
+          class="profile-icon"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="100"
+        />
         <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
           Je suis un étudiant en Génie Informatique, passionné par la
           technologie et le développement de solutions innovantes. J'aime
@@ -56,6 +70,7 @@
           <li><strong>Nom :</strong> Ismaila Keita</li>
           <li><strong>Université :</strong> Univers Professionnelle</li>
           <li><strong>Localisation :</strong> Rufisque, Dakar</li>
+          <li><strong>Passions :</strong> Musique, Sport, Voyages</li>
         </ul>
       </div>
     </section>
@@ -70,7 +85,13 @@
           data-aos-duration="1500"
           data-aos-delay="300"
         >
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
           <h3>Développement Web</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%"></div>
+          </div>
           <p>HTML, CSS, JavaScript</p>
         </div>
         <div
@@ -79,7 +100,12 @@
           data-aos-duration="1500"
           data-aos-delay="500"
         >
+          <i class="fab fa-python"></i>
+          <i class="fab fa-java"></i>
           <h3>Langages de Programmation</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%"></div>
+          </div>
           <p>Python, Java</p>
         </div>
         <div
@@ -88,8 +114,26 @@
           data-aos-duration="1500"
           data-aos-delay="700"
         >
+          <i class="fas fa-database"></i>
           <h3>Base de Données</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%"></div>
+          </div>
           <p>MySQL</p>
+        </div>
+        <div
+          class="competence"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="900"
+        >
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-adobe"></i>
+          <h3>Web Designer</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%"></div>
+          </div>
+          <p>Figma</p>
         </div>
       </div>
     </section>
@@ -104,10 +148,20 @@
           data-aos-duration="1500"
           data-aos-delay="300"
         >
+          <img
+            src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+            alt="Projet Recensement"
+            data-aos="zoom-in"
+          />
           <h3>Recensement de la population sénégalaise</h3>
           <p>
             Gestion des données de recensement à l'échelle nationale avec MySQL.
           </p>
+          <a
+            href="https://github.com/tonprofil/recensement"
+            class="project-link"
+            >Voir le projet</a
+          >
         </div>
         <div
           class="projet"
@@ -115,11 +169,21 @@
           data-aos-duration="1500"
           data-aos-delay="500"
         >
+          <img
+            src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+            alt="Projet Stationnement"
+            data-aos="zoom-in"
+          />
           <h3>Modélisation d'un stationnement</h3>
           <p>
             Modélisation UML d'un système de stationnement pour optimiser la
             gestion des places.
           </p>
+          <a
+            href="https://github.com/tonprofil/stationnement"
+            class="project-link"
+            >Voir le projet</a
+          >
         </div>
         <div
           class="projet"
@@ -127,11 +191,21 @@
           data-aos-duration="1500"
           data-aos-delay="700"
         >
+          <img
+            src="https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+            alt="Projet Calcul"
+            data-aos="zoom-in"
+          />
           <h3>Application de calcul en JavaScript</h3>
           <p>
             Application interactive pour effectuer divers calculs comme les
             factorielles, les nombres premiers, etc.
           </p>
+          <a
+            href="https://github.com/tonprofil/calculatrice-js"
+            class="project-link"
+            >Voir le projet</a
+          >
         </div>
         <div
           class="projet"
@@ -139,11 +213,21 @@
           data-aos-duration="1500"
           data-aos-delay="900"
         >
+          <img
+            src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+            alt="Projet Gestion de véhicules"
+            data-aos="zoom-in"
+          />
           <h3>Gestion de véhicules</h3>
           <p>
             Application Java pour gérer les informations des véhicules, avec un
             suivi des entretiens et des statuts.
           </p>
+          <a
+            href="https://github.com/tonprofil/gestion-vehicules"
+            class="project-link"
+            >Voir le projet</a
+          >
         </div>
       </div>
     </section>
@@ -165,7 +249,27 @@
       </form>
     </section>
 
+    <!-- Footer -->
     <footer>
+      <div
+        class="social-links"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="500"
+      >
+        <a href="https://github.com/tonvraiutilisateur" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://linkedin.com/in/tonvraiutilisateur" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://instagram.com/tonvraiutilisateur" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/tonvraiutilisateur" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </div>
       <p>© 2025 Ismaila Keita. Tous droits réservés.</p>
     </footer>
 
@@ -173,5 +277,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="script.js"></script>
   </body>
 </html>
